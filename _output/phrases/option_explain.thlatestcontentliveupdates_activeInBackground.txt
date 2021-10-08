@@ -1,0 +1,1 @@
+If enabled, ajax polling will stay active even when the tab is not active.

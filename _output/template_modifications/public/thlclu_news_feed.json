@@ -1,0 +1,9 @@
+{
+    "template": "news_feed",
+    "description": "Add news feed live updates",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "/(<div.*class=\"block\")(.*>)/",
+    "replace": "<xf:js src=\"themehouse/latest-content-live-updates/update.js\"\n\t   addon=\"ThemeHouse/LatestContentLiveUpdates\" min=\"1\" />\n$1 data-xf-init=\"th-latest-content-live-updates\"\n\tdata-thlclu-source-url=\"{{ th_lclu_route() }}\"\n\tdata-thlclu-active-in-background=\"{$xf.options.thlatestcontentliveupdates_activeInBackground}\"\n\tdata-thlclu-update-rate=\"{$xf.options.thlatestcontentliveupdates_pollRate}\"\n\tdata-thlclu-max-content=\"{$xf.options.newsFeedMaxItems}\" $2\n\t<div class=\"block-outer\">\n\t\t<xf:trim>\n\t\t\t<div class=\"block-outer-opposite u-muted\" data-xf-init=\"tooltip\"\n\t\t\t\t title=\"{{ phrase('thlclup_updates_live_tooltip')|for_attr }}\">\n\t\t\t\t<xf:fa icon=\"fa-sync\" />\n\t\t\t\t{{ phrase('thlclu_updates_live')}}\n\t\t\t</div>\n\t\t</xf:trim>\n\t</div>"
+}

@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Repository\\NewsFeed",
+    "to_class": "ThemeHouse\\LatestContentLiveUpdates\\XF\\Repository\\NewsFeed",
+    "execute_order": 10,
+    "active": true
+}

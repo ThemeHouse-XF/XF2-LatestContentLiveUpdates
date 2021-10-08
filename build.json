@@ -1,0 +1,6 @@
+{
+    "additional_files": [
+        "js/themehouse/latest-content-live-updates"
+    ],
+    "minify": "*"
+}

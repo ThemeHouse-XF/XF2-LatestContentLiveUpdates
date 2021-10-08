@@ -1,0 +1,50 @@
+{
+    "option.thlatestcontentliveupdates_activeInBackground.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "ba752681c2a50a4dc15076364a849af8"
+    },
+    "option.thlatestcontentliveupdates_pollRate.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "3f6b3ba32a413bb72d4f893c96bff1d8"
+    },
+    "option.thlatestcontentliveupdates_removeReactions.txt": {
+        "global_cache": false,
+        "version_id": 1000012,
+        "version_string": "1.0.0 Alpha 2",
+        "hash": "aea4d06087c3e76eaa09dae117f22abd"
+    },
+    "option_explain.thlatestcontentliveupdates_activeInBackground.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "998c38a8f68cfccc506d9d4b2a119a68"
+    },
+    "option_explain.thlatestcontentliveupdates_pollRate.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "4a8c3de913ea4a9b853cf97a5ec1026a"
+    },
+    "option_explain.thlatestcontentliveupdates_removeReactions.txt": {
+        "global_cache": false,
+        "version_id": 1000012,
+        "version_string": "1.0.0 Alpha 2",
+        "hash": "86b50d19083f2519f69e1133b8f5cafb"
+    },
+    "thlclu_updates_live.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "3ee8b2febce047a41d0eef45b3d1d768"
+    },
+    "thlclup_updates_live_tooltip.txt": {
+        "global_cache": false,
+        "version_id": 1000011,
+        "version_string": "1.0.0 Alpha 1",
+        "hash": "045be173121919763bda60500b732eee"
+    }
+}
